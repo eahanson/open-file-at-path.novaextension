@@ -1,5 +1,6 @@
 {
   "activationEvents": "*",
+  "bugs": "https://github.com/eahanson/open-file-at-path.novaextension/issues",
   "categories": ["commands"],
   "commands": {
     "extensions": [
@@ -11,9 +12,11 @@
   },
   "description": "Opens the file at the given path (optionally at the given line and column)",
   "entitlements": { "clipboard": true },
+  "homepage": "https://github.com/eahanson/open-file-at-path.novaextension/",
   "identifier": "eahanson.open-file-at-path",
   "main": "main.js",
   "name": "Open File at Path",
   "organization": "Erik Hanson",
+  "repository": "https://github.com/eahanson/open-file-at-path.novaextension/",
   "version": "1.0"
 }

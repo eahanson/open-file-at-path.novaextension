@@ -1,8 +1,10 @@
-**Open File at Path** opens a palette into which you can type a file path and optionally line number and column number:
+**Open File at Path** opens a palette into which you can type a file path and optionally line number and column number.
 
-`src/hello.js`
-`src/hello.js:4`
-`src/hello.js:4:18`
+These are some valid paths:
+
+- `src/hello.js`
+- `src/hello.js:4`
+- `src/hello.js:4:18`
 
 The palette will default to the first line of text from the clipboard.
 
