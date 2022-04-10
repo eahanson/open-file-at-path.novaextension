@@ -1,0 +1,19 @@
+{
+  "activationEvents": "*",
+  "categories": ["commands"],
+  "commands": {
+    "extensions": [
+      {
+        "command": "open-file-at-path.run",
+        "title": "Open File at Path"
+      }
+    ]
+  },
+  "description": "Opens the file at the given path (optionally at the given line and column)",
+  "entitlements": { "clipboard": true },
+  "identifier": "eahanson.open-file-at-path",
+  "main": "main.js",
+  "name": "Open File at Path",
+  "organization": "Erik Hanson",
+  "version": "1.0"
+}
