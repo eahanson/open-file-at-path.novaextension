@@ -10,7 +10,7 @@
       }
     ]
   },
-  "description": "Opens the file at the given path (optionally at the given line and column)",
+  "description": "Opens a file at the given path.",
   "entitlements": { "clipboard": true },
   "homepage": "https://github.com/eahanson/open-file-at-path.novaextension/",
   "identifier": "eahanson.open-file-at-path",
