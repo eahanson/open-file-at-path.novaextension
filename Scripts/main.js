@@ -7,8 +7,6 @@ exports.deactivate = function () {
 };
 
 nova.commands.register("open-file-at-path.run", (editor) => {
-  // var range = editor.selectedRange;
-  // var text = editor.getTextInRange(range);
   nova.clipboard.readText().then((text) => {
     const regex = /(\/?(?:[\w.-]+\/)*[\w.-]+):(\d+)/;
     let firstLine = extractFirstLine(text);
