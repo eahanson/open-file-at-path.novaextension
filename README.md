@@ -10,6 +10,10 @@ These are some valid paths:
 - `src/hello.js:4`
 - `src/hello.js:4:18`
 
+The extension tries to ignore trailing text, so you can often copy an entire line from a stacktrace
+or other output and still go to the file. For example, `src/hello.js:4: unknown value` should successfully
+lead to line 4 of `src/hello.js`.
+
 ![screenshot](https://raw.github.com/eahanson/open-file-at-path.novaextension/main/open-file-at-path.jpg)
 
 ## Usage
